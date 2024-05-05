@@ -1,0 +1,341 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/* first section start from here */
+
+
+#first_section{
+    background-image:linear-gradient(#3958a25e, #05447b), url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px 0 50px 0;
+}
+.form_title{
+    background-color: #2e357a;
+    color: white;
+    border: 5px solid #4497d3;
+    width: 50%;
+    margin: 20px auto 20px auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+    
+}
+
+form{
+    background-color: #2e357a;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 50px 0 50px 200px;
+    border: 6px solid #4497d3;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.input_box{
+    font-size: 20px;
+    padding: 2px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+#comment{
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    margin-top: 10px;
+}
+.form_submit{
+    background-color: #4497d3;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 6px 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+#color{
+    
+    height: 30px;
+    width: 200px
+}
+#DateOfBirth{
+    width: 240px;
+}
+#country{
+    margin-top: 7px;
+}
+
+
+/* second section code start */
+
+#second_section{
+    background-color:  #1b4f72;
+    padding: 100px 0;
+}
+.table_title{
+    background-color: white;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    color: black;
+    text-align: center;
+    width: 50%;
+}
+th,td{
+    background-color:bisque;
+    border: 2px solid black;
+    padding: 10px 5px ;
+}
+th{
+    background-color: antiquewhite;
+    color: black;
+    font-size: 22px;
+}
+
+/* third section code start */
+
+#third_section{
+    background-color: #04407b;
+    padding: 100px 0;
+}
+#third_section h3{
+    background-color: #FF6347;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+.boolean_list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: tan;
+    width: 50%;
+    margin: 0 auto;
+    grid-gap: 10px;
+    font-size: 18px;
+    padding: 10px 50px 50px 50px;
+    text-transform: capitalize;
+}
+
+/* foutth section start */
+
+#fourth_section{
+    background-color:#1b4f72;
+    padding: 50px 0 100px 0;
+}
+
+h5{
+    background-color: #FF6347;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-style: italic;
+    padding: 7px 0;
+    border-radius: 10px;
+}
+h4{
+    background-color: #FF6347;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 7px 0;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+span{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    color: white;
+    padding-left: 120px;
+    font-size: 20px;
+}
+
+
+/* responsive area start */
+
+
+@media only screen and (max-width: 688px) {
+
+    /* first section start from here */
+
+
+#first_section{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.form_title{
+     width:80%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+form{
+    max-width: 80%;
+    padding: 50px 20px 50px 20px;
+    font-size: 16px;
+}
+.input_box{
+    font-size: 16px;
+    padding: 2px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+#file{
+    font-size: 16px;
+}
+#comment{
+    width: 220px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#color{
+    margin-top: 10px;
+    height: 30px;
+    width: 200px
+}
+#DateOfBirth{
+    width: 200px;
+}
+/* second section code start */
+
+
+.table_title{
+    width: 80%;
+    font-size: 18px;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+table{
+    width: 300px;
+}
+table th{
+    display: block;
+}
+table td{
+    display: block;
+}
+table tr{
+    display: block;
+}
+
+/* third section code start */
+
+#third_section{
+  
+    padding: 30px 0;
+}
+#third_section h3{
+    font-size: 18px;
+    width: 80%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.boolean_list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: tan;
+    width: 80%;
+}
+
+
+/* foutth section start */
+
+#fourth_section{
+    background-color:#1b4f72;
+    padding: 50px 0 100px 0;
+}
+
+span{
+    display: inline-block;
+    width: 300px;
+   margin-left: 35px;
+
+    padding: 0px;
+ 
+}
+
+}
+
+
+
+@media only screen and (min-width:689px) and (max-width:1099px) {
+    
+/* first section start from here */
+
+
+#first_section{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.form_title{
+     width:80%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+form{
+    max-width: 80%;
+    padding: 50px;
+    font-size: 16px;
+}
+.input_box{
+    width: 300px;
+    margin: 0 auto;
+   
+}
+/* third section code start */
+
+#third_section{
+  
+    padding: 30px 0;
+}
+#third_section h3{
+    font-size: 18px;
+    width: 50%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.boolean_list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: tan;
+    width: 80%;
+}
+
+}
